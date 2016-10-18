@@ -25,6 +25,10 @@ def calculate(myarg):
 		print(stack)
 	if len(stack) != 1:
 		raise TypeError("Too many parameters")
+	if 0:
+		print("ERROR FALSE")
+	elif 1:
+		print("Am I covered")
 	return stack.pop()
 
 def main():
